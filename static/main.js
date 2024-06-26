@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
     scene.add(light);
-
+    // prueba
     const raccoon = await loadGLTF('/static/assets/models/model2/scene.gltf');
     //const raccoon = await loadGLTF('/static/assets/models/upch-dia/images (1).gltf');
     //                      X     Y    Z
